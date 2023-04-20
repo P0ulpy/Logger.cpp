@@ -5,7 +5,7 @@
 #ifndef LOGGER_HPP
 #define LOGGER_HPP
 
-#include "ConsoleColor.hpp"
+#include "../ConsoleColor.hpp"
 
 #include <thread>
 #include <string>
@@ -76,6 +76,6 @@ private:
     static std::unordered_map<std::thread::id, std::string> _threadsLabels;
 };
 
-#include "Logger.tpp"
+#include "../Logger.tpp"
 
 #endif //LOGGER_HPP

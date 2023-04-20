@@ -6,7 +6,7 @@ ENDIF()
 
 add_library(cpp-logger
     ConsoleColor.hpp
-    Logger.hpp
+        Includes/Logger.hpp
     Logger.tpp
     Logger.cpp
 )
